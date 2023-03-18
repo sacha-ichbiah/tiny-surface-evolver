@@ -32,7 +32,7 @@ With several cells, we minimize, under conservation of volume, the energy $\math
 
 The two physical laws that emerges from this model are: 
 
-- **Laplace Law:** $P_j - P_i = 2 \gamma_{ij} h_{ij}$ where $h_{ij}$ is the mean curvature of the interface between the cell i and j. `
-- **Young-Dupré Law:** $\vec{\gamma}_{ij} + \vec{\gamma}_{ik} + \vec{\gamma}_{jk} = \vec{0} $
+- **Laplace Law:** $P_j - P_i = 2 \gamma_{ij} h_{ij}$ where $h_{ij}$ is the mean curvature of the interface between the cell i and j.
+- **Young-Dupré Law:** $\vec{\gamma}_{ij} + \vec{\gamma}_{ik} + \vec{\gamma}_{jk} = \vec{0}$
 
 **The mini Surface Evolver** was created by Sacha Ichbiah during his PhD in [Turlier Lab](https://www.turlierlab.com), to provide a simple and understandable energy minimization method on python.
