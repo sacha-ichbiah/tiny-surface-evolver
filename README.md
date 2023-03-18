@@ -1,6 +1,6 @@
-### The mini Surface Evolver
+### Tiny Surface Evolver
 
-**The mini Surface Evolver** is a PyTorch-based minimalist implementation of area-minimization on manifolds, inspired by [The Surface Evolver](https://en.wikipedia.org/wiki/Surface_Evolver), under 120 lines of code.
+**Tiny Surface Evolver** is a PyTorch-based minimalist implementation of area-minimization on manifolds, inspired by [The Surface Evolver](https://en.wikipedia.org/wiki/Surface_Evolver), under 120 lines of code.
 
 <img src="Images/regularized_gd.png" alt="drawing" width="650"/>
 
@@ -25,7 +25,7 @@ We rely on [largesteps](https://github.com/rgl-epfl/large-steps-pytorch) to regu
 ### How to run
 
 Single cell version: 
-`git clone https://github.com/sacha-ichbiah/mini-surface-evolver && cd mini-surface-evolver && python -m pip install -r requirements.txt && python main_manifold.py`
+`git clone https://github.com/sacha-ichbiah/tiny-surface-evolver && cd tiny-surface-evolver && python -m pip install -r requirements.txt && python main_manifold.py`
 
 ### Physical model
 With several cell, we minimize, under conservation of volume, the energy $\mathcal{E} = \underset{ij}{\sum}\gamma_{ij}A_{ij}$, where $\gamma_{ij}$ are the surface tensions of the interface between the cells $i$ and $j$ and $A_{ij}$ the associated area. 
