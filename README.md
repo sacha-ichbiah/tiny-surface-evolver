@@ -1,6 +1,6 @@
-### Tiny Surface Evolver
+### The tiny Surface Evolver
 
-**Tiny Surface Evolver** is a PyTorch-based minimalist implementation of area-minimization on manifolds, inspired by [The Surface Evolver](https://en.wikipedia.org/wiki/Surface_Evolver), under 120 lines of code.
+**The tiny Surface Evolver** is a PyTorch-based minimalist implementation of area-minimization on manifolds, inspired by [The Surface Evolver](https://en.wikipedia.org/wiki/Surface_Evolver), under 120 lines of code.
 
 <img src="Images/regularized_gd.png" alt="drawing" width="650"/>
 
@@ -30,9 +30,9 @@ Single cell version:
 ### Physical model
 With several cell, we minimize, under conservation of volume, the energy $\mathcal{E} = \underset{ij}{\sum}\gamma_{ij}A_{ij}$, where $\gamma_{ij}$ are the surface tensions of the interface between the cells $i$ and $j$ and $A_{ij}$ the associated area. 
 
-The two physical laws that are consequence of this model are: 
+The two physical laws that emerges from this model are: 
 - **Young-Dupré Law:** $\gamma_{ij} + \gamma_{ik} + \gamma_{jk} = 0$
 - **Laplace Law:** $P_j - P_i = 2 \gamma_{ij} h_{ij}$ where $h_{ij}$ is the mean curvature of the interface between the cell i and j. `
 
 
-**The mini Surface Evolver** was created by Sacha Ichbiah during his PhD in [Turlier Lab](https://www.turlierlab.com), to provide a simple and understandable energy minimization method on python.
+**The tiny Surface Evolver** was created by Sacha Ichbiah during his PhD in [Turlier Lab](https://www.turlierlab.com), to provide a simple and understandable energy minimization method on python.
