@@ -28,9 +28,9 @@ Single cell version:
 `git clone https://github.com/sacha-ichbiah/mini-surface-evolver && cd mini-surface-evolver && python -m pip install -r requirements.txt && python main_manifold.py`
 
 ### Physical model
-With several cell, we minimize, under conservation of volume, the energy $\mathcal{E} = \underset{ij}{\sum}\gamma_{ij}A_{ij}$, where $\gamma_{ij}$ are the surface tensions of the interface between the cells $i$ and $j$ and $A_{ij}$ the associated area. 
+With several cells, we minimize, under conservation of volume, the energy $\mathcal{E} = \underset{ij}{\sum}\gamma_{ij}A_{ij}$, where $\gamma_{ij}$ are the surface tensions of the interface between the cells $i$ and $j$ and $A_{ij}$ the associated area. 
 
-The two physical laws that are consequence of this model are: 
+The two physical laws that emerges from this model are: 
 - **Young-Dupré Law:** $\vec{\gamma}_{ij} + \vec{\gamma}_{ik} + \vec{\gamma}_{jk} = \vec{0}$
 - **Laplace Law:** $P_j - P_i = 2 \gamma_{ij} h_{ij}$ where $h_{ij}$ is the mean curvature of the interface between the cell i and j. `
 
